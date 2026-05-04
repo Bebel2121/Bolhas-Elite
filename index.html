@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bolhas Elite</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ALERTA -->
+<div class="top-bar">
+⚠️ Sejam todos bem-vindos(a), Aqui você faz seu designer do jeito que você quiser!!
+</div>
+
+<header>
+    <h1>BOLHAS <span>ELITE</span></h1>
+    <p>Destaque seu perfil e chame atenção em segundos</p>
+</header>
+
+<!-- CONTADOR -->
+<div class="contador">
+🔥 Oferta ativa termina em: <span id="tempo">10:00</span>
+</div>
+
+<section class="cards">
+
+    <div class="card">
+        <div class="circle"></div>
+        <h2>BÁSICO</h2>
+        <p>✔ Simples e direto<br>✔ Visual limpo<br>✔ Entrega rápida</p>
+        <h3>R$ 15,00</h3>
+        <button onclick="comprar('Básico','15,00')">Comprar Agora</button>
+    </div>
+
+    <div class="card destaque">
+        <div class="circle"></div>
+        <span class="badge">MAIS VENDIDO</span>
+        <h2>INTERMEDIÁRIO</h2>
+        <p>✔ Personalizado<br>✔ Glow e efeitos<br>✔ Mais destaque</p>
+        <h3>R$ 25,00</h3>
+        <button onclick="comprar('Intermediário','25,00')">Comprar Agora</button>
+    </div>
+
+    <div class="card gold">
+        <div class="circle gold"></div>
+        <h2>PROFISSIONAL</h2>
+        <p>✔ Design exclusivo<br>✔ Nível premium<br>✔ Alto impacto</p>
+        <h3>R$ 40,00</h3>
+        <button onclick="comprar('Profissional','40,00')">Comprar Agora</button>
+    </div>
+
+</section>
+
+<h2 class="titulo">PACOTES PROMOCIONAIS</h2>
+
+<section class="pacotes">
+
+    <div class="pacote">
+        <h3>START</h3>
+        <p>3 Bolhas Básicas</p>
+        <h4>R$ 30,00</h4>
+        <button onclick="comprar('Pacote Start','30,00')">Comprar</button>
+    </div>
+
+    <div class="pacote destaque">
+        <span class="badge">OFERTA 🔥</span>
+        <h3>PRO</h3>
+        <p>3 Personalizadas</p>
+        <h4>R$ 60,00</h4>
+        <button onclick="comprar('Pacote Pro','60,00')">Comprar</button>
+    </div>
+
+    <div class="pacote gold">
+        <h3>ELITE</h3>
+        <p>5 Profissionais</p>
+        <h4>R$ 150,00</h4>
+        <button onclick="comprar('Pacote Elite','150,00')">Comprar</button>
+    </div>
+
+</section>
+
+<!-- WHATSAPP FLUTUANTE -->
+<a class="whatsapp" href="#" onclick="comprar('Atendimento','')">💬</a>
+
+<!-- PROVA SOCIAL -->
+<div id="popup" class="popup"></div>
+
+<footer>
+    <p>© Bolhas Elite - Seu perfil com outro nível 🚀</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
