@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0a0a0f;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: #0d0d14;
+}
+
+.logo {
+  color: #a855f7;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.hero span {
+  color: #a855f7;
+}
+
+.buttons button {
+  margin: 10px;
+  padding: 12px 20px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.primary {
+  background: linear-gradient(90deg, #9333ea, #ec4899);
+  color: white;
+}
+
+.secondary {
+  background: transparent;
+  border: 1px solid #555;
+  color: white;
+}
+
+.countdown {
+  margin-top: 20px;
+  color: #00ffcc;
+}
+
+.plans {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+}
+
+.card {
+  background: #111;
+  padding: 20px;
+  border-radius: 15px;
+  width: 250px;
+  text-align: center;
+}
+
+.card button {
+  margin-top: 15px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+  background: #333;
+  color: white;
+}
+
+.premium {
+  border: 2px solid #a855f7;
+  box-shadow: 0 0 20px #a855f7;
+  transform: scale(1.05);
+}
+
+.badge {
+  background: purple;
+  padding: 5px;
+  border-radius: 8px;
+  font-size: 12px;
+  position: absolute;
+}
